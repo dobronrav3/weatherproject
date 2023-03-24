@@ -1,0 +1,32 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Условия полета</title>
+    <link rel="stylesheet" href="{% static 'weatherapp/css/flycond.css' %}" type="text/css" />
+    <link rel="website icon" href="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Weather-1024.png">
+
+</head>
+<body>
+    {% include 'includes/navbar.html' %}<br><br><br><br>
+    <br><br>
+    <form method="POST"> {% csrf_token %}
+      <p>
+        <input type="text" placeholder="Название города" name="city" required/>
+      </p>
+      <br>
+      <br>
+      <button id="search" type="submit">Поиск</button>
+    </form>
+    <div class="parent">
+        <div class="block">
+
+        </div>
+    </div>
+
+
+</body>
+</html>

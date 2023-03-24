@@ -1,0 +1,162 @@
+
+.wrapper {
+    margin-top: 100px;
+	position: relative;
+	min-height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  /*  main */
+#wrap{
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    background: #c0c0c0;
+
+}
+#header{
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+#nav{
+    background: #191970;
+    height: 70px;
+}
+
+.container {
+  text-align: center;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 15px;
+    line-height: 20px;
+    display: inline-block;
+}
+#head{
+    background: url('https://xmple.com/wallpaper/highlight-gradient-blue-linear-2048x1536-c2-040b5c-04061f-l-50-a-330-f-21.svg') #2b66c8 0 0 no-repeat;
+    border-radius: 20px;
+    height: 120px;
+}
+#logo{
+    background: url(i/logo.gif) #191970 0 0 no-repeat;
+    width: 30px;
+    height: 30px;
+}
+#logo a{
+      display: block;
+      width: 100%;
+      height: 100%;
+}
+
+.content {
+    padding-bottom: 90px;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 200px;
+    height: auto;
+    position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	min-height: 100%;
+	opacity: 1;
+}
+
+
+
+.links-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    color: white;
+    font-weight: 500;
+    font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+.links-section a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.links-section a:hover {
+    color: brown;
+
+}
+
+input[type="text"] {
+   border: 3px solid;
+   border-radius: 7px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   -khtml-border-radius: 7px;
+   outline: none;
+   height: 50px;
+   width: 200px;
+   color: #191970;
+   font-size: 20px;
+   font-family:
+}
+
+
+#search{
+  margin: 0 auto;
+  display: block;
+  padding: 12px 32px;
+  transition: all 0.3s ease-out;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  outline: none;
+  background-color: #191970;
+  background-clip: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+button:hover {
+  transition: all 0.3s ease-out;
+  transform: scale(1.05, 1.05);
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 16px 2px;
+}
+}
+a.blubtn:active {
+  color: #000;
+  border: #1A1A1A 1px solid;
+  transition: .07s;
+  background-color: #FFF;
+}
+
+#head button {
+  margin: 0 auto;
+  margin-right: 30px;
+  margin-left: 20px;
+  display: active;
+  padding: 12px 26px;
+  transition: all 0.3s ease-out;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 7px;
+  border-color: #F0E68C;
+  outline: none;
+  background-color: #000080;
+  background-clip: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+

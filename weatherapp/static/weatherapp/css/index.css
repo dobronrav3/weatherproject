@@ -1,0 +1,42 @@
+@import url("base.css");
+
+html{
+
+    background:url('../img/img_weather.png') no-repeat center center;
+    min-height:100%;
+    background-size:cover;
+}
+
+
+#main{
+    color: #191970;
+    text-align: center;
+    font-family: "Courier New", Courier New, monospace;
+    font-size:25px;
+    line-height: 60px;
+    list-style-type: none;
+    background-color: #FFEFD5;
+    width: auto;
+    max-width: 1000px;
+    border-radius: 20px;
+    margin: 2rem auto;
+    padding: 5px;
+}
+
+body p {
+    color: #800000;
+    text-align: center;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size:20px;
+
+}
+
+form {
+    padding: 5px;
+    border-radius:15px;
+}
+
+a {
+    color: #DC143C;
+}
+
